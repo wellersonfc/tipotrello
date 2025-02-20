@@ -26,7 +26,7 @@
 - Styled Components
 - dnd-kit
 
-🔍 Referencias
+🔍 Referencias:
 Construcao do Drag in Drop
 - https://www.youtube.com/watch?v=DVqVQwg_6_4&t=182s
 
