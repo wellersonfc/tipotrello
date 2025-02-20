@@ -10,35 +10,49 @@
 1. Clone o repositório:
    ```bash
    git clone https://github.com/wellersonfc/tipotrello.git
-   cd gp-front```
+   cd gp-front
+   ```
 
-2.Instale as dependências:
-```- npm install```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
 3. Inicie o servidor:
-```- npm start```
+   ```bash
+   npm start
+   ```
 
 4. Acesse a aplicação no navegador em http://localhost:3000
 
-🛠️ Tecnologias
+## 🛠️ Tecnologias
+
 - React.js 18.3
-- Node  23.1
+- Node 23.1
 - Styled Components
 - dnd-kit
 
-🔍 Referencias:
+## ✅ Pontos Positivos
 
-Construcao do Drag in Drop
+- Responsivo: Adapta-se bem a diferentes tamanhos de tela.
+- Usual: Interface intuitiva para gestão de projetos.
+- Fácil de usar: Configuração simples e rápida para novos usuários.
 
-- https://www.youtube.com/watch?v=DVqVQwg_6_4&t=182s
+## ⚠️ Pontos de Atenção
 
-Otimizacao
+- Melhorar o layout para uma interface mais moderna e atrativa.
+- Otimizar o CSS para torná-lo mais sucinto e eficiente.
 
-- https://www.youtube.com/watch?v=sBA_SDhIPqQ
+## 🔍 Referências
 
-📞 Contato
+### Construção do Drag and Drop
+- [YouTube - Drag and Drop](https://www.youtube.com/watch?v=DVqVQwg_6_4&t=182s)
 
-Autor: Wellerson Ferreira de Carvalho
+### Otimização
+- [YouTube - Otimização de Código](https://www.youtube.com/watch?v=sBA_SDhIPqQ)
+
+## 📞 Contato
+
+**Autor:** Wellerson Ferreira de Carvalho
 
 Dúvidas ou sugestões? Fale comigo!
-
