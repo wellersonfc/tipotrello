@@ -1,0 +1,25 @@
+/* Card */
+.task {
+  background: white;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: grab;
+  will-change: transform;
+  display: flex;
+  flex-direction: column; 
+}
+
+/* Cabeçalho do card: título e botão de edição na mesma linha */
+.taskHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Título do card */
+.taskTitle {
+  margin: 0;
+  font-weight: bold;
+}

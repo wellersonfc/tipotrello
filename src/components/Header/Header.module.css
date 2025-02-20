@@ -1,0 +1,151 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .desktopNav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .projects {
+    position: relative;
+  }
+  
+  .dropdownToggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 13.5px;
+    cursor: pointer;
+    letter-spacing: 1.1px;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    width: 200px;
+    border-radius: 4px;
+  }
+  
+  .dropdownMenu li {
+    padding: 8px;
+    color: white;
+  }
+  
+  .dropdownMenu li:hover {
+    background-color: #555;
+  }
+  
+  .createProject {
+    color: white;
+    text-decoration: none;
+    font-size: 13.5px;
+  }
+  
+  .menuToggle {
+    display: none; 
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .accordion {
+    background-color: #333;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    height: 100vh;
+    padding-top: 20px;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+  }
+  
+  .accordion.open {
+    transform: translateX(0);
+  }
+  
+  .closeMenu {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .accordionSection {
+    margin-bottom: 20px;
+  }
+  
+  .accordionToggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 60px;
+  }
+  
+  .accordionContent {
+    background-color: #444;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .accordionContent li {
+    padding: 8px;
+    color: white;
+  }
+  
+  .accordionContent li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .accordionContent li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .desktopNav {
+      display: none; 
+    }
+  
+    .menuToggle {
+      display: block;
+    }
+  
+    .accordion.open {
+      transform: translateX(0);
+    }
+  }
+  

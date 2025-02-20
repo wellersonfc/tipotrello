@@ -1,0 +1,52 @@
+/* Estilos para o Footer */
+html, body {
+    height: 100%;  /* Garantir que o body ocupe toda a altura da tela */
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* Garantir que a altura mínima do contêiner ocupe 100% da altura da janela */
+}
+
+.main-content {
+    flex-grow: 1;  /* Faz o conteúdo crescer e ocupar o espaço restante */
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* Certificar que não há problemas de scroll lateral */
+    box-sizing: border-box;
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.year {
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+/* Responsivo para telas pequenas */
+@media (max-width: 768px) {
+    .footerContent {
+        padding: 10px;
+    }
+
+    .name, .year {
+        font-size: 10px;
+    }
+}
